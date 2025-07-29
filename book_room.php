@@ -25,7 +25,7 @@
 </html>
 <?php
     session_start();
-    include('config/db.php');
+    include('db.php');
     if(isset($_POST['book']))
     {
         // $user_id = $_SESSION['user_id'];

@@ -45,7 +45,7 @@
             $stmt->bind_param('sssi', $room_type, $check_in, $check_out, $guests);
             if($stmt->execute())
             {
-                echo "<p style='color:green;'>Room Booked Successfully!</p>";
+                echo "<p style='color:darkgreen;'>Room Booked Successfully!</p>";
             }
             else
             {

@@ -18,7 +18,8 @@
         Check-in Date : <input type="date" name="check-in" required><br><br>
         Check-out Date : <input type="date" name="check-out" required><br><br>
         Number of Guests : <input type="number" name="guests" min=1 required><br><br>
-        <button type="submit">Book Now</button>
+        <!-- <button type="submit">Book Now</button> -->
+            <input id="button" type="submit" name="book" value="Book Now">
     </form>
     </div>
 </body>
@@ -78,7 +79,7 @@
         margin-left: 390px;
         position: fixed;
     }
-    .container form button{
+    .container form #button{
         position: relative;
         height: 50px;
         width: 140px;
